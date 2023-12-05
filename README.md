@@ -1,4 +1,4 @@
-Тестовое задание
+>Тестовое задание
 =
 Спроектировать (продумать формат и ограничения входящих/исходящих параметров) и реализовать REST API, вычисляющее частоту встречи символов по заданной строке. Результат должен быть отсортирован по убыванию количества вхождений символа в заданную строку.
 * Пример входной строки: `` aaaaabcccc ``
@@ -49,12 +49,14 @@ POST метод ``/calculate`` принимает строку из символ
 * Если всё нормально:
 
 > <img width="1221" alt="ok" src="https://github.com/stage51/RestAPI/assets/57895435/582e401e-db03-4177-8dc4-e21a5e364464">
+
 * Попытка отправить несколько строк:
 
-<img width="1221" alt="several" src="https://github.com/stage51/RestAPI/assets/57895435/a6c012d0-84e0-496a-bd5e-4acff461edf8">
+> <img width="1221" alt="several" src="https://github.com/stage51/RestAPI/assets/57895435/a6c012d0-84e0-496a-bd5e-4acff461edf8">
 * Попытка отправить больше 1000 символов:
 
-<img width="1221" alt="1000" src="https://github.com/stage51/RestAPI/assets/57895435/e05cec78-6a0f-4eb6-9948-48365d1d9e99">
+> <img width="1221" alt="1000" src="https://github.com/stage51/RestAPI/assets/57895435/e05cec78-6a0f-4eb6-9948-48365d1d9e99">
+
 * Попытка отправить пустое тело:
 
-<img width="1221" alt="empty" src="https://github.com/stage51/RestAPI/assets/57895435/252204f5-50f1-470e-a6c0-8ca377e44c73">
+> <img width="1221" alt="empty" src="https://github.com/stage51/RestAPI/assets/57895435/252204f5-50f1-470e-a6c0-8ca377e44c73">
