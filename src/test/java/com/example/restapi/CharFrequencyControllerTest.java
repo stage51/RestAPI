@@ -14,7 +14,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThrows;
 import static org.mockito.Mockito.when;
 
-public class FrequencyControllerTest {
+public class CharFrequencyControllerTest {
     private CharFrequencyController charFrequencyController;
     private CharFrequencyService charFrequencyService;
     private Map<Character, Integer> map;
@@ -51,6 +51,6 @@ public class FrequencyControllerTest {
     @Test
     public void testCalculateFrequencyLongInput() {
         String input = "a".repeat(1001);
-        assertThrows(IllegalInputException.class, () -> charFrequencyController.calculateFrequency(null));
+        assertThrows(IllegalInputException.class, () -> charFrequencyController.calculateFrequency(input));
     }
 }

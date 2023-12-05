@@ -1,6 +1,5 @@
 package com.example.restapi;
 
-import com.example.restapi.exceptions.IllegalInputException;
 import com.example.restapi.services.CharFrequencyService;
 import com.example.restapi.services.impl.CharFrequencyServiceImpl;
 import org.junit.Before;
@@ -11,7 +10,7 @@ import java.util.Map;
 
 import static org.junit.Assert.assertEquals;
 
-public class FrequencyServiceTest {
+public class CharFrequencyServiceTest {
     private CharFrequencyService charFrequencyService;
     private Map<Character, Integer> map;
 
